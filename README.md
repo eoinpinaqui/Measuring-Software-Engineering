@@ -9,20 +9,13 @@ In the case of software engineering, we cannot use traditional metrics (TechBeac
 #### What is it?
 Source Lines of Code (SLOC or LOC) is a metric used to measure the size of a computer program that is widely used in the evaluation of software engineers. SLOC is measured by counting the number of lines in a project's codebase (Nguyen, et al., 2007). Traditionally, SLOC is used to predict the amount of effort and time a project takes to build, as well as to estimate the productivity of software engineers.  
 
-There are two main variations of SLOC measures: physical SLOC and logical SLOC. Physical SLOC counts the number of lines of text in a program while logical SLOC counts the number of executable expressions (PVS-Studio, 2020). Have a look at the following examples:  
+There are two main variations of SLOC measures: physical SLOC and logical SLOC. Physical SLOC counts the number of lines of text in a program while logical SLOC counts the number of executable expressions (PVS-Studio, 2020). Have a look at the following example:  
 
 ```
-// For loop that prints the numbers 1 to 10
+// for loop that prints the numbers 1 to 10
 for(int i = 0; i < 10; i++) print(i)
 ```
-
-```
-// For loop that prints the numbers 1 to 10
-for(int i = 0; i < 10; i++)
-{
-  print(i)
-}
-```
+The above code snippet has 2 physical SLOC and 2 logical SLOC (the loop operator for and the function call operator print). The comment line is included in the physical SLOC.
 
 #### Why doesn't it work?
 
