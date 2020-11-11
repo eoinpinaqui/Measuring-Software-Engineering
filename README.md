@@ -12,10 +12,19 @@ Source Lines of Code (SLOC or LOC) is a metric used to measure the size of a com
 There are two main variations of SLOC measures: physical SLOC and logical SLOC. Physical SLOC counts the number of lines of text in a program while logical SLOC counts the number of executable expressions (PVS-Studio, 2020). Have a look at the following example:  
 
 ```
-// for loop that prints the numbers 1 to 10
+// for loop that prints the numbers from 1 to 10
 for(int i = 0; i < 10; i++) print(i)
 ```
-The above code snippet has 2 physical SLOC and 2 logical SLOC (the loop operator for and the function call operator print). The comment line is included in the physical SLOC.
+The above code snippet has two physical SLOC and two logical SLOC (the loop operator for and the function call operator print). The comment line is included in the physical SLOC. Now have a look at the following example:
+
+```
+// for loop that prints the numbers from 1 to 10
+for(int i = 0; i < 10; i++) 
+{
+    print(i)
+}
+```
+The above code snippet performs the exact same operations as the first example given. Yet, it contains five physical SLOC instead of the previous two. There is no defined standard for using SLOC and usage of physical and logical SLOC vary from company to company and person to person.
 
 #### Why doesn't it work?
 
