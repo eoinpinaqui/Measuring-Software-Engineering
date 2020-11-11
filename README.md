@@ -30,16 +30,19 @@ The above code snippet performs the exact same operations as the first example g
 
 -----
 ### Bibliography
-AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online] 
-Available at: https://www.analyticsinhr.com/blog/employee-performance-metrics/
-[Accessed 11 November 2020].
-Nguyen, V., Deeds-Rubin, S., Tan, T. & Boehm, B., 2007. A SLOC Counting Standard. Center for Systems and Software Engineering: University of Southern California.
-PVS-Studio, 2020. Source Lines of Code. [Online] 
-Available at: https://www.viva64.com/en/t/0086/
-[Accessed 11 November 2020].
-TechBeacon, 2020. Why metrics don't matter in software development. [Online] 
-Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals
-[Accessed 11 November 2020].
+AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online]  
+Available at: https://www.analyticsinhr.com/blog/employee-performance-metrics/  
+[Accessed 11 November 2020].  
+
+Nguyen, V., Deeds-Rubin, S., Tan, T. & Boehm, B., 2007. A SLOC Counting Standard. Center for Systems and Software Engineering: University of Southern California.  
+
+PVS-Studio, 2020. Source Lines of Code. [Online]   
+Available at: https://www.viva64.com/en/t/0086/  
+[Accessed 11 November 2020].  
+
+TechBeacon, 2020. Why metrics don't matter in software development. [Online]   
+Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals  
+[Accessed 11 November 2020].  
 
 
 
