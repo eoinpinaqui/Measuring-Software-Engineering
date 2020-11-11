@@ -5,18 +5,41 @@ Measuring employee performance is a practice in every industry. Managers will of
 In the case of software engineering, we cannot use traditional metrics (TechBeacon, 2020). The nature of software engineering allows for the measurement of an abundance metrics, such as the number of commits per day, the average size of commits, the number of pull requests merged, etc. While these metrics can be somewhat useful in determining the productivity of a software engineer, they are not always the most unambiguous indication of their job performance. This report will discuss why some traditional metrics don't work, some modern metrics that are more beneficial to analyse and the ethical implications of these metrics. 
 
 ## Traditional Metrics
-### Lines of Code
-#### What are lines of code
+### Source Lines of Code
+#### What is it?
+Source Lines of Code (SLOC or LOC) is a metric used to measure the size of a computer program that is widely used in the evaluation of software engineers. SLOC is measured by counting the number of lines in a project's codebase (Nguyen, et al., 2007). Traditionally, SLOC is used to predict the amount of effort and time a project takes to build, as well as to estimate the productivity of software engineers.  
+
+There are two main variations of SLOC measures: physical SLOC and logical SLOC. Physical SLOC counts the number of lines of text in a program while logical SLOC counts the number of executable expressions (PVS-Studio, 2020). Have a look at the following examples:  
+
+```
+// For loop that prints the numbers 1 to 10
+for(int i = 0; i < 10; i++) print(i)
+```
+
+```
+// For loop that prints the numbers 1 to 10
+for(int i = 0; i < 10; i++)
+{
+  print(i)
+}
+```
+
+#### Why doesn't it work?
 
 -----
 ### Bibliography
-AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online]  
-Available at: https://www.analyticsinhr.com/blog/employee-performance-metrics/  
-[Accessed 11 November 2020].  
+AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online] 
+Available at: https://www.analyticsinhr.com/blog/employee-performance-metrics/
+[Accessed 11 November 2020].
+Nguyen, V., Deeds-Rubin, S., Tan, T. & Boehm, B., 2007. A SLOC Counting Standard. Center for Systems and Software Engineering: University of Southern California.
+PVS-Studio, 2020. Source Lines of Code. [Online] 
+Available at: https://www.viva64.com/en/t/0086/
+[Accessed 11 November 2020].
+TechBeacon, 2020. Why metrics don't matter in software development. [Online] 
+Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals
+[Accessed 11 November 2020].
 
-TechBeacon, 2020. Why metrics don't matter in software development. [Online]  
-Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals  
-[Accessed 11 November 2020].  
+
 
 
 
