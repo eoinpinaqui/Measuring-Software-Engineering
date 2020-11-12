@@ -59,6 +59,14 @@ The above code snippet has twenty physical SLOC and ten logical SLOC. The former
 
 In higher-level languages like Java and Python, programmers can write more useful applications using fewer lines of code. Encouraging these programmers to increase the lines of code it should take to accomplish a task makes software systems more complex and harder to understand, making it harder to add features and fix bugs in the future. Ultimately, this leads to blockers in progress and is a waste of time and money.
 
+### Commit Frequency
+
+#### What is it?
+Software engineers often use version control systems when collaborating on projects. These version control systems are responsible for managing changes to files in computer programs and codebases. A commit is an individual change to a file or set of files in the repository that is managed by the version control system. Every commit is given a unique ID that provides insight into what changes were made to the source code. A commit is seen as a fundamental unit of work and is often used to measure the contribution and productivity of software engineers (Kolassa, et al., 2014).  
+
+Measuring software engineers with commit frequency is widely used to varying degrees of effectiveness. The idea is simple; the higher the number of commits a software engineer is making, the more productive they are. This assumption has been used in many companies to drive performance reviews, but there is no standard for using commit frequency when using this metric.  
+
+
 -----
 ### Bibliography
 AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online]  
