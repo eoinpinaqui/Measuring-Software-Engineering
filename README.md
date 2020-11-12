@@ -56,7 +56,9 @@ print(9)
 // Print the number 10
 print(10)
 ```
-The above code snippet has twenty physical SLOC and ten logical SLOC. This is a bad piece of code and the former is accepted as the correct way of performing this task. Therefore, when using SLOC as a metric to measure the productivity of software engineers, you are encouraging quantity over quality and perpetuating a copy-paste culture. This also discourages refactoring of code to make things easier and encourages meaningless comments that serve no purpose but to increase the SLOC metric.
+The above code snippet has twenty physical SLOC and ten logical SLOC. This is a bad piece of code and the former is accepted as the correct way of performing this task. Therefore, when using SLOC as a metric to measure the productivity of software engineers, you are encouraging quantity over quality and perpetuating a copy-paste culture. This also discourages refactoring of code to make things easier and encourages meaningless comments that serve no purpose but to increase the SLOC metric.  
+
+In higher-level languages like Java and Python, programmers can write more useful applications using fewer lines of code. Encouraging these programmers to increase the lines of code it should take to accomplish a task makes software systems more complex and harder to understand, making it harder to add features and fix bugs in the future. Ultimately, this leads to blockers in progress and is a waste of time and money.
 
 -----
 ### Bibliography
