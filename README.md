@@ -27,7 +27,7 @@ for(int i = 0; i < 10; i++)
 The above code snippet performs the exact same operations as the first example given. Yet, it contains five physical SLOC instead of the previous two. There is no defined standard for using SLOC and usage of physical and logical SLOC vary from company to company and person to person.
 
 #### Why doesn't it work?
-Bill Gates once said, “Measuring programming progress by lines of code is like measuring aircraft building progress by weight” (Goodreads, 2020). The issue with SLOC is that is an easy metric to game, and it encourages bad practices. Take the following piece of code that we looked at before:  
+Bill Gates once said, “Measuring programming progress by lines of code is like measuring aircraft building progress by weight” (Goodreads, 2020). The issue with SLOC is that it is an easy metric to game, and it encourages bad practices. Take the following piece of code that we looked at before:  
 
 ```
 // for loop that prints the numbers from 1 to 10
