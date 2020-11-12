@@ -56,7 +56,7 @@ print(9)
 // Print the number 10
 print(10)
 ```
-The above code snippet has twenty physical SLOC and ten logical SLOC. This is a bad piece of code and the former is accepted as the correct way of performing this task. Therefore, when using SLOC as a metric to measure the productivity of software engineers, you are encouraging quantity over quality and perpetuating a copy-past culture.
+The above code snippet has twenty physical SLOC and ten logical SLOC. This is a bad piece of code and the former is accepted as the correct way of performing this task. Therefore, when using SLOC as a metric to measure the productivity of software engineers, you are encouraging quantity over quality and perpetuating a copy-paste culture.
 
 -----
 ### Bibliography
