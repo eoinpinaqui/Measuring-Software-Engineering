@@ -27,6 +27,36 @@ for(int i = 0; i < 10; i++)
 The above code snippet performs the exact same operations as the first example given. Yet, it contains five physical SLOC instead of the previous two. There is no defined standard for using SLOC and usage of physical and logical SLOC vary from company to company and person to person.
 
 #### Why doesn't it work?
+Bill Gates once said, “Measuring programming progress by lines of code is like measuring aircraft building progress by weight” (Goodreads, 2020). The issue with SLOC is that is an easy metric to game, and it encourages bad practices. Take the following piece of code that we looked at before:  
+
+```
+// for loop that prints the numbers from 1 to 10
+for(int i = 0; i < 10; i++) print(i)
+```
+Previously, we established that this code snippet has two physical SLOC and two logic SLOC. Let us compare this example to the following, which performs the same operations:
+```
+// Print the number 1
+print(1)
+// Print the number 2
+print(2)
+// Print the number 3
+print(3)
+// Print the number 4
+print(4)
+// Print the number 5
+print(5)
+// Print the number 6
+print(6)
+// Print the number 7
+print(7)
+// Print the number 8
+print(8)
+// Print the number 9
+print(9)
+// Print the number 10
+print(10)
+```
+The above code snippet has twenty physical SLOC and ten logical SLOC. This is a bad piece of code and the former is accepted as the correct way of performing this task. Therefore, when using SLOC as a metric to measure the productivity of software engineers, you are encouraging quantity over quality and perpetuating a copy-past culture.
 
 -----
 ### Bibliography
@@ -34,15 +64,21 @@ AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online]
 Available at: https://www.analyticsinhr.com/blog/employee-performance-metrics/  
 [Accessed 11 November 2020].  
 
+Goodreads, 2020. Quote by Bill Gates: “Measuring programming progress by lines of code...”. [Online]  
+Available at: https://www.goodreads.com/quotes/536587-measuring-programming-progress-by-lines-of-code-is-like-measuring  
+[Accessed 12 November 2020].  
+
 Nguyen, V., Deeds-Rubin, S., Tan, T. & Boehm, B., 2007. A SLOC Counting Standard. Center for Systems and Software Engineering: University of Southern California.  
 
-PVS-Studio, 2020. Source Lines of Code. [Online]   
+PVS-Studio, 2020. Source Lines of Code. [Online]  
 Available at: https://www.viva64.com/en/t/0086/  
 [Accessed 11 November 2020].  
 
-TechBeacon, 2020. Why metrics don't matter in software development. [Online]   
+TechBeacon, 2020. Why metrics don't matter in software development. [Online]  
 Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals  
 [Accessed 11 November 2020].  
+
+
 
 
 
