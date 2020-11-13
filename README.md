@@ -4,7 +4,7 @@ Measuring employee performance is a practice in every industry. Managers will of
 
 In the case of software engineering, we cannot use traditional metrics (TechBeacon, 2020). The nature of software engineering allows for the measurement of an abundance metrics, such as the number of commits per day, the average size of commits, the number of pull requests merged, etc. While these metrics can be somewhat useful in determining the productivity of a software engineer, they are not always the most unambiguous indication of their job performance. This report will discuss why some traditional metrics don't work, some modern metrics that are more beneficial to analyse and the ethical implications of these metrics.  
 
-## Traditional Metrics
+## Traditional In-Process Metrics
 
 ### Source Lines of Code (SLOC)
 
@@ -76,6 +76,24 @@ The metrics discussed above were initially used to measure the productivity of s
 
 Modern software development organisations adopted the Agile Development Method (ADM) in the early 2000s. The ADM approach discovers requirements through the development of solutions and relies on the collaboration of cross-functional teams and their customers/end-users. This differs significantly from the WDM approach. This difference in approach to developing software requires a difference in approach to measuring productivity and involves the analysis of outcome metrics rather than in-process metrics. This means that productivity is measured in accordance with business goals, and engineers are evaluated based on the quality and importance of their code.
 
+## Modern Outcome Metrics
+
+### Sprint Breakdown
+
+#### What is it?
+Sprint burndown is commonly used in software development methodologies like SCRUM. SCRUM is a framework in which the development process is broken into several short cycles called Sprints. The goal of a Sprint is to complete a planned amount of work, so that is ready for review. Sprints can range in length from a few days to 3-4 of weeks. Engineers work towards a Sprint goal while planning, refining, building, testing and reviewing. The goals and structure of a Sprint are decided in a Sprint planning meeting, where a set of desired features are pulled from the top of the product backlog so that they can be implemented in the coming Sprint (Schwaber, 1997).  
+
+During a Sprint, daily SCRUM meetings are held, where team members synchronise their efforts. Daily SCRUM meetings ensure that the right things are being worked on by the right people at the right time. Each member on the team is asked three questions:  
+1. What did you do yesterday to help achieve the Sprint goal?  
+2. What will I do today to accomplish the Sprint goal on time?  
+3. What is impeding progress toward the Sprint goal?  
+The Sprint Burndown is a technique used to display the remaining work of the current Sprint. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's work. This technique is used to measure the productivity of both software engineering teams and individual software engineers.  
+
+#### Why it works
+Sprint Burndown is a useful tool that empowers software engineers to drive overall projects and individual features themselves. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to technological challenges and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems arise.  
+
+Using Sprint Burndowns to measure productivity encourages software engineers to write quality code promptly and to communicate with their peers what work they are doing. Measuring the performance of an individual software engineer is simple, as the Sprint Burndown chart monitors the contributions of each engineer on the team. Using Sprint Breakdowns provides a software development team with a framework in which to work, gives them the capacity to grow as engineers and allows the useful measurement of groups and individuals.
+
 -----
 ### Bibliography
 AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online]  
@@ -96,9 +114,16 @@ PVS-Studio, 2020. Source Lines of Code. [Online]
 Available at: https://www.viva64.com/en/t/0086/  
 [Accessed 11 November 2020].  
 
+Schwaber, K., 1997. SCRUM Development Process. Burlington, MA: Advanced Development Methods.  
+
 TechBeacon, 2020. Why metrics don't matter in software development. [Online]  
 Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals  
 [Accessed 11 November 2020].  
+
+wibas, 2020. Sprint Burn Down. [Online]  
+Available at: https://www.wibas.com/scrum/sprint-burn-down/en  
+[Accessed 13 November 2020].  
+
 
  
 
