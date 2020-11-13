@@ -66,7 +66,7 @@ Software engineers often use version control systems when collaborating on proje
 
 Measuring software engineers with commit frequency is widely used to varying degrees of effectiveness. The idea is simple; the higher the number of commits a software engineer is making, the more productive they are. This assumption has been used in many companies to drive performance reviews, but there is no standard for using commit frequency when using this metric. 
 
-<img src="https://tech.just-eat.com/wp-content/uploads/2016/01/hackathon_12.png">
+<img src="https://docs.cloudbees.com/docs/cloudbees-cd/latest/devops-insight/_images/dois/03000047.6175d30.png">
 
 #### Why doesn't it work?
 Generally, programmers should make consistent commits throughout their work. The frequency and size of commits is a matter of personal preference. There is no definitive guide on what a commit should look like, and the subject is debated by all software engineers. As a result of this ambiguity, each software engineer develops their own practice when using version control systems. Some engineers prefer to make very small commits as often as possible. Some engineers prefer to make large commits seldomly. Some engineers prefer to break commits up into logical sections so that each commit deals with a different problem or part of the codebase.  
