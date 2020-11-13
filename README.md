@@ -6,7 +6,7 @@ In the case of software engineering, we cannot use traditional metrics (TechBeac
 
 ## Traditional Metrics
 
-### Source Lines of Code
+### Source Lines of Code (SLOC)
 
 #### What is it?
 Source Lines of Code (SLOC or LOC) is a metric used to measure the size of a computer program that is widely used in the evaluation of software engineers. SLOC is measured by counting the number of lines in a project's codebase (Nguyen, et al., 2007). Traditionally, SLOC is used to predict the amount of effort and time a project takes to build, as well as to estimate the productivity of software engineers.  
