@@ -33,7 +33,7 @@ Bill Gates once said, "Measuring programming progress by lines of code is like m
 for(int i = 0; i < 10; i++) System.out.println(i);
 ```
 Previously, we established that this code snippet has two physical SLOC and two logic SLOC. Let us compare this example to the following, which performs the same operations:  
-```
+```java
 // Print the number 1
 System.out.println(1);
 // Print the number 2
