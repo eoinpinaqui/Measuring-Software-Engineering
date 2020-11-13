@@ -90,6 +90,8 @@ During a Sprint, daily SCRUM meetings are held, where team members synchronise t
 
 The Sprint Burndown is a technique used to display the remaining work of the current Sprint. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's work. This technique is used to measure the productivity of both software engineering teams and individual software engineers.  
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SampleBurndownChart.svg/1200px-SampleBurndownChart.svg.png">
+
 #### Why it works
 Sprint Burndown is a useful tool that empowers software engineers to drive overall projects and individual features themselves. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to technological challenges and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems arise.  
 
