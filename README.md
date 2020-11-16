@@ -131,7 +131,7 @@ Available at: https://www.goodreads.com/quotes/536587-measuring-programming-prog
 
 Kolassa, C., Riehle, D. & Salim, M. A., 2014. The Empirical Commit Frequency Distribution of OpenSource Projects. Friedrich-Alexander-University: arXiv.  
 
-McCormick, M., 2012. Waterfall vs. Agile Methodology. Revised Edition 8/9/2012 ed. Washington DC: MPCS, Inc.  
+McCormick, M., 2012. Waterfall vs. Agile Methodology. Revised Edition 8/9/2012 ed. Washington DC: MPCS, Inc..  
 
 Nguyen, V., Deeds-Rubin, S., Tan, T. & Boehm, B., 2007. A SLOC Counting Standard. Center for Systems and Software Engineering: University of Southern California.  
 
@@ -145,18 +145,12 @@ TechBeacon, 2020. Why metrics don't matter in software development. [Online]
 Available at: https://techbeacon.com/app-dev-testing/why-metrics-dont-matter-software-development-unless-you-pair-them-business-goals  
 [Accessed 11 November 2020].  
 
+Visual Paradigm, 2020. What is Story Point in Agile? How to Estimate a User Story?. [Online]  
+Available at: https://www.visual-paradigm.com/scrum/what-is-story-point-in-agile/  
+[Accessed 16 November 2020].  
+
 wibas, 2020. Sprint Burn Down. [Online]  
 Available at: https://www.wibas.com/scrum/sprint-burn-down/en  
 [Accessed 13 November 2020].  
-
-
- 
-
-
-
-
-
-
-
 
 
