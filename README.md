@@ -85,14 +85,14 @@ During a Sprint, daily SCRUM meetings are held, where team-members synchronise t
 2.	What will I do today to accomplish the Sprint goal on time?
 3.	What is impeding progress toward the Sprint goal?  
 
-Sprint Burndown is a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project.  
+Sprint Burndowns are a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project.  
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SampleBurndownChart.svg/1200px-SampleBurndownChart.svg.png">
 
-#### Why it works
-Sprint Burndown is a powerful tool that empowers software engineer to drive overall projects and individual features themselves. It also includes them as an active member of the software measurement process. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to any technical challenges that arise and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems occur.  
+#### Why they work
+Sprint Burndowns are a powerful tool that empowers software engineer to drive overall projects and individual features themselves. It also includes them as an active member of the software measurement process. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to any technical challenges that arise and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems occur.  
 
-Using Sprint burndowns to measure productivity is a useful process that encourages software engineers to write quality code promptly and to communicate with their peers what work they are doing at all times. Measuring the performance of an individual software engineer is simple, as the Sprint Burndown chart monitors the contributions of each engineer on the team. Using Sprint Burndowns provides a software development team with a structured framework in which to work and gives them the capacity to grow as engineers. This process is much more than a measurement technique for teams and individuals; it is a system in which software engineers are encouraged to thrive.  
+Using Sprint Burndowns to measure productivity is a useful process that encourages software engineers to write quality code promptly and to communicate with their peers what work they are doing at all times. Measuring the performance of an individual software engineer is simple, as the Sprint Burndown chart monitors the contributions of each engineer on the team. Using Sprint Burndowns provides a software development team with a structured framework in which to work and gives them the capacity to grow as engineers. This process is much more than a measurement technique for teams and individuals; it is a system in which software engineers are encouraged to thrive.  
 
 ### Team Velocity
 
@@ -107,7 +107,7 @@ The approach when using story points is similar to the approach when using Sprin
 
 <img src="https://www.sealights.io/wp-content/uploads/2018/07/sprint-velocity.jpg">
 
-#### Why it works?
+#### Why it works
 Team velocity is a crucial metric in measuring the productivity of software development teams and induvial software engineers in the modern software industry. Measuring team velocity helps teams:  
 1.	Predict the number of stories that can be delivered by a specific date.
 2.	Predict the date that a fixed number of stories can be delivered.
