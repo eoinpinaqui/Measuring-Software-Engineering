@@ -115,7 +115,7 @@ The algorithmic model described above is used to compare the productivity of tea
 
 When a team has completed a series of Sprints, the team can use its velocity calculations to forecast release and project completion dates. Based on the velocity of the previous Sprints, the team can track how much work has been reported as complete for each Sprint and estimate how much backlog effort can be planned for if the Sprint velocity, duration and composition remain constant. Team velocity allows teams and managers to measure productivity but also provides much-needed insight into the future of the project and allows for accurate planning of future Sprints.
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sealights.io%2Fsprint-velocity%2Fsprint-velocity-5-ways-to-move-faster%2F&psig=AOvVaw1ND-ch3GD3pZAjgh5q3uJr&ust=1605647963618000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCFmPf-h-0CFQAAAAAdAAAAABAD">
+<img src="https://www.sealights.io/wp-content/uploads/2018/07/sprint-velocity.jpg">
 
 -----
 ### Bibliography
