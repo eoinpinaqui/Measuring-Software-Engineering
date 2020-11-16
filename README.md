@@ -105,6 +105,8 @@ Vi = (Number of story points completed in the Sprint)/(Duration of the Sprint)
 ```
 The approach when using story points is similar to the approach when using Sprint Burndowns, as the story points are updated daily in a SCRUM meeting so that the team knows how many story points are left on any development tasks. Team velocity and Sprint Burndowns are often used together to measure the productivity of teams and individuals. Team velocity can also be measured in hours of work instead of story points, where team-members estimate the number of hours required to complete a task.
 
+<img src="https://www.sealights.io/wp-content/uploads/2018/07/sprint-velocity.jpg">
+
 #### Why it works?
 Team velocity is a crucial metric in measuring the productivity of software development teams and induvial software engineers in the modern software industry. Measuring team velocity helps teams:  
 1.	Predict the number of stories that can be delivered by a specific date.
@@ -115,7 +117,7 @@ The algorithmic model described above is used to compare the productivity of tea
 
 When a team has completed a series of Sprints, the team can use its velocity calculations to forecast release and project completion dates. Based on the velocity of the previous Sprints, the team can track how much work has been reported as complete for each Sprint and estimate how much backlog effort can be planned for if the Sprint velocity, duration and composition remain constant. Team velocity allows teams and managers to measure productivity but also provides much-needed insight into the future of the project and allows for accurate planning of future Sprints.
 
-<img src="https://www.sealights.io/wp-content/uploads/2018/07/sprint-velocity.jpg">
+
 
 -----
 ### Bibliography
