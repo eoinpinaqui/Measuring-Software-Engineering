@@ -115,7 +115,7 @@ When a team has completed a series of Sprints, the team can use its velocity cal
 ### Case Study #1: Humanyze
 #### What is it?
 
-<img src="https://www.humanyze.com/wp-content/uploads/Humanyze_Logo.png">
+<img src="https://www.humanyze.com/wp-content/themes/humanyze/assets/images/logo__humanyze.png">
 
 Ben Waber is the President and Co-Founder of Humanyze, a company that is "paving the way in leveraging Workplace Analytics to help companies make better, faster business decisions that improve both performance and the employee experience" (Humanyze, 2020). Waber calls this new field of "innovative" research "people analytics" (Business Insider, 2016). Humanyze manufacture digital badges that are worn by employees that watch and listen to their every move. These digital badges look like lanyards but have the functionality to monitor the actions and conversations of employees throughout the workday. These badges learn who employees communicate with to solve issues and can even determine employee stress levels by measuring heart rate and voice inflexion. Once a company has collected enough data from the badges, it sends this unformatted data to Humanyze, who visualise the data as a series of webs. These webs provide insight into social interactions on a second by second basis. The goal of Humanyze is to revolutionise the way that companies organise themselves.  
 
