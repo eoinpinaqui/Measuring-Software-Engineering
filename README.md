@@ -80,10 +80,11 @@ Software development has changed since the 1970s. Modern software development or
 #### What are they?
 Sprint Burndowns are commonly used in agile software development methodologies like SCRUM. SCRUM is a framework in which the development process is broken into several short cycles called Sprints. The goal of a Sprint is to complete a planned amount of work so that it is ready for review. Sprints can range from a couple of days to 3-4 weeks. During a Sprint, software engineers work toward a pre-determined Sprint goal while planning, refining, building, testing, and reviewing. The goals and structure of a Sprint are decided in a Sprint planning meeting, where a set of desired features are pulled from the top of the product backlog so that they can be implemented in the coming Sprint (Schwaber, 1997).  
 
-During a Sprint, daily SCRUM meetings are held, where team-members synchronise their efforts. These daily SCRUM meetings ensure that the right people are working on the right things at the right time. Each member of the team is asked three questions:
+During a Sprint, daily SCRUM meetings are held, where team-members synchronise their efforts. These daily SCRUM meetings ensure that the right people are working on the right things at the right time. During such meetings, each member of the team is asked three questions:
 1.	What did you do yesterday to help achieve the Sprint goal?  
 2.	What will I do today to accomplish the Sprint goal on time?  
 3.	What is impeding progress toward the Sprint goal?  
+
 Sprint Burndown is a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project.  
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SampleBurndownChart.svg/1200px-SampleBurndownChart.svg.png">
