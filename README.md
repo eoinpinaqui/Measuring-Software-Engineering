@@ -75,7 +75,7 @@ Software development has changed since the 1970s. Modern software development or
 
 ## Modern Outcome Metrics
 
-### Sprint Breakdowns
+### Sprint Burndowns
 
 #### What are they?
 Sprint Burndowns are commonly used in agile software development methodologies like SCRUM. SCRUM is a framework in which the development process is broken into several short cycles called Sprints. The goal of a Sprint is to complete a planned amount of work so that it is ready for review. Sprints can range from a couple of days to 3-4 weeks. During a Sprint, software engineers work toward a pre-determined Sprint goal while planning, refining, building, testing, and reviewing. The goals and structure of a Sprint are decided in a Sprint planning meeting, where a set of desired features are pulled from the top of the product backlog so that they can be implemented in the coming Sprint (Schwaber, 1997).  
