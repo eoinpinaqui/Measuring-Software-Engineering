@@ -50,16 +50,16 @@ System.out.println(9);
 // Print the number 10
 System.out.println(10);
 ```
-Using the methods outlined above, we can determine that the value for physical SLOC is twenty, and the value for logical SLOC is ten. Even though the above code snippet performs the same task as the other examples given, it is widely considered to be a nasty piece of code. Either of the other two samples is preferred, but when a software engineer is being measured with SLOC, they are encouraged to produce software that follows the above standard. When using SLOC as a primary metric to measure the productivity of software engineering teams, you are promoting quantity over quality and perpetuating a copy-paste culture. Not only this, but the refactoring of code to make things easier is also discouraged and the adding of meaningless comments that serve no purpose but to increase the SLOC metric is rewarded.  
+Using the methods outlined above, we can determine that the value for physical SLOC is twenty, and the value for logical SLOC is ten. Even though the above code snippet performs the same task as the other examples given, it is widely considered to be a nasty piece of code. Either of the other two samples is preferred, but when a software engineer is being measured with SLOC, they are encouraged to produce software that follows the above standard. When using SLOC as a primary metric to measure the productivity of software engineering teams, you are promoting quantity over quality and perpetuating a copy-paste culture. Not only this, but the refactoring of code to make things easier is also discouraged and the adding of meaningless comments that serve no purpose but to increase the SLOC metric is rewarded.   
 
 Another issue with SLOC is that different programming languages require different amounts of lines of code to achieve the same functionality. For example, higher-level languages like Java and Python allow programmers to write useful applications using only a few lines of code. The same cannot be said for lower-level languages like C, where the lack of built-in memory management systems require programmers to carefully manage the allocation and deallocation of memory in their applications, therefore increasing the value of SLOC for such. Encouraging Java and Python programmers to increase the lines of code it takes to accomplish a task makes software systems more complex and incomprehensible, making it harder to add features and fix bugs in the future. Ultimately, this leads to blockers in progress and is a waste of time and money.  
 
 ### Commit Frequency
 
 #### What is it?
-Version control systems are vital in the development of large software systems and software engineering teams use them to collaborate during the development process. Version control systems are responsible for managing changes to files in computer programs and codebases that are made by software engineers. In this context, a commit is an individual change to a file or set of files in the repository that has been triggered by a developer with access to the codebase. To correctly manage this process, each commit is given a unique ID so that they can be tracked and reviewed at a later time. This provides insight into what changes were made to the source code and by whom. A commit is seen as a fundamental unit of work, and commit frequency is often used to measure the contribution and productivity of software engineers (Kolassa et al., 2014).  
+Version control systems are vital in the development of large software systems and software engineering teams use them to collaborate during the development process. Version control systems are responsible for managing changes to files in computer programs and codebases that are made by software engineers. In this context, a commit is an individual change to a file or set of files in the repository that has been triggered by a developer with access to the codebase. To correctly manage this process, each commit is given a unique ID so that they can be tracked and reviewed at a later time. This provides insight into what changes were made to the source code and by whom. A commit is seen as a fundamental unit of work, and commit frequency is often used to measure the contribution and productivity of software engineers (Kolassa et al., 2014).    
 
-The measurement of software engineering teams with commit frequency is used to varying degrees of effectiveness. The idea is simple; the higher the frequency of commits by an individual software engineer, the more productive they are. This idea also translates to measuring teams, where teams are compared by commit frequency and the higher the commit frequency of a team, the more productive they are. This assumption has been used by companies and managers to drive performance reviews, but there is no standard for using commit frequency to measure software engineers.  
+The measurement of software engineering teams with commit frequency is used to varying degrees of effectiveness. The idea is simple; the higher the frequency of commits by an individual software engineer, the more productive they are. This idea also translates to measuring teams, where teams are compared by commit frequency and the higher the commit frequency of a team, the more productive they are. Companies and managers have used this assumption to drive performance reviews, but there is no standard for using commit frequency to measure software engineers.  
 
 <img src="https://docs.cloudbees.com/docs/cloudbees-cd/latest/devops-insight/_images/dois/03000047.6175d30.png">
 
@@ -80,19 +80,18 @@ Software development has changed since the 1970s. Modern software development or
 #### What are they?
 Sprint Burndowns are commonly used in agile software development methodologies like SCRUM. SCRUM is a framework in which the development process is broken into several short cycles called Sprints. The goal of a Sprint is to complete a planned amount of work so that it is ready for review. Sprints can range from a couple of days to 3-4 weeks. During a Sprint, software engineers work toward a pre-determined Sprint goal while planning, refining, building, testing, and reviewing. The goals and structure of a Sprint are decided in a Sprint planning meeting, where a set of desired features are pulled from the top of the product backlog so that they can be implemented in the coming Sprint (Schwaber, 1997).  
 
-During a Sprint, daily SCRUM meetings are held, where team-members synchronise their efforts. These daily SCRUM meetings ensure that the right people are working on the right things at the right time. Each member of the team is asked three questions:  
-1.	What did you do yesterday to help achieve the Sprint goal?
-2.	What will I do today to accomplish the Sprint goal on time?
+During a Sprint, daily SCRUM meetings are held, where team-members synchronise their efforts. These daily SCRUM meetings ensure that the right people are working on the right things at the right time. Each member of the team is asked three questions:
+1.	What did you do yesterday to help achieve the Sprint goal?  
+2.	What will I do today to accomplish the Sprint goal on time?  
 3.	What is impeding progress toward the Sprint goal?  
-
-Sprint Burndowns are a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project.  
+Sprint Burndown is a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project.  
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SampleBurndownChart.svg/1200px-SampleBurndownChart.svg.png">
 
 #### Why they work
-Sprint Burndowns are a powerful tool that empowers software engineer to drive overall projects and individual features themselves. It also includes them as an active member of the software measurement process. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to any technical challenges that arise and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems occur.  
+Sprint Burndown is a powerful tool that empowers software engineer to drive overall projects and individual features themselves. It also includes them as an active member of the software measurement process. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to any technical challenges that arise and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems occur.  
 
-Using Sprint Burndowns to measure productivity is a useful process that encourages software engineers to write quality code promptly and to communicate with their peers what work they are doing at all times. Measuring the performance of an individual software engineer is simple, as the Sprint Burndown chart monitors the contributions of each engineer on the team. Using Sprint Burndowns provides a software development team with a structured framework in which to work and gives them the capacity to grow as engineers. This process is much more than a measurement technique for teams and individuals; it is a system in which software engineers are encouraged to thrive.  
+Using Sprint burndowns to measure productivity is a useful process that encourages software engineers to write quality code promptly and to communicate with their peers what work they are doing at all times. Measuring the performance of an individual software engineer is simple, as the Sprint Burndown chart monitors the contributions of each engineer on the team. Using Sprint Burndowns provides a software development team with a structured framework in which to work and gives them the capacity to grow as engineers. This process is much more than a measurement technique for teams and individuals; it is a system in which software engineers are encouraged to thrive.  
 
 ### Team Velocity
 
@@ -118,6 +117,21 @@ The algorithmic model described above is used to compare the productivity of tea
 When a team has completed a series of Sprints, the team can use its velocity calculations to forecast release and project completion dates. Based on the velocity of the previous Sprints, the team can track how much work has been reported as complete for each Sprint and estimate how much backlog effort can be planned for if the Sprint velocity, duration and composition remain constant. Team velocity allows teams and managers to measure productivity but also provides much-needed insight into the future of the project and allows for accurate planning of future Sprints.
 
 
+## Case Studies
+
+### Case Study #1: Humanyze
+
+#### What is it?
+Ben Waber is the President and Co-Founder of Humanyze, a company that is "paving the way in leveraging Workplace Analytics to help companies make better, faster business decisions that improve both performance and the employee experience" (Humanyze, 2020). Waber calls this new field of "innovative" research "people analytics" (Business Insider, 2016). Humanyze manufacture digital badges that are worn by employees that watch and listen to their every move. These digital badges look like lanyards but have the functionality to monitor the actions and conversations of employees throughout the workday. These badges learn who employees communicate with to solve issues and can even determine employee stress levels by measuring heart rate and voice inflexion. Once a company has collected enough data from the badges, it sends this unformatted data to Humanyze, who visualise the data as a series of webs. These webs provide insight into social interactions on a second by second basis. The goal of Humanyze is to revolutionise the way that companies organise themselves.  
+
+More than 10,000 employees wear Humanyze badges in industries across the United States. These badges thrive in companies with a smaller number of employees, that can make rapid changes to seating charts to manage and streamline communication between team members. Humanyze is backed by decades of MIT research that helps companies uncover patterns on how their employees get work done. Humanyze provides its customers with unique metrics, such as "Organization Health", which objectively quantify the health of an organisation through the analysis of employee engagement, team productivity and organisational adaptability. Humanyze endeavours to continuously measure and analyse the actions of employees to improve their performance and productivity (Humanyze, 2020).  
+
+<img src="https://miro.medium.com/max/5200/0*Svz__eIqdPNoE11u.jpg">
+
+### Ethical Concerns
+Waber has stressed that people opt into wearing Humanyze badges and that representatives from the company "go in and talk to employees about what data we collect, that we don't share it, that it's anonymous and not about recording your bathroom breaks. It's a legal contract that people choose to sign" (HR Magazine, 2020). Waber has also stated that anyone who is uncomfortable with the concept and does not opt into the monitoring service is given a fake badge so that none of the other employees know. This raises a sinister question; if this is a contract that people choose to sign, why is there a need for fake badges? These scenarios that are disguised as opt-in services end up being non-negotiable company-wide changes that employees are forced to adopt. This practice raises ethical concerns; is it appropriate for companies to force their employees to opt-in to second by second monitoring?  
+
+The critical ethical issue with Humanyze badges is their lack of intelligence. They are not sophisticated enough to distinguish between personal and professional conversations; they are programmed to monitor employees at all times throughout the day. Thus, regardless of whether it is intentional or not, private discussions and actions are recorded and sent to Humanyze for analysis. This raises an abundance of ethical issues; is it appropriate for a company to monitor the number of americanos that an employee consumes in a day? Is it suitable for a company to analyse water-cooler conversation about weekend barbecues? It makes sense for a company to attempt to maximise the productivity of their employees, but is it ethical to do so at the cost of the employees' privacy? These practices can be likened to those of Big Brother in George Orwell's novel, "Nineteen Eighty-Four" and disrespect the civil liberties of employees, specifically concerning mass surveillance.  
 
 -----
 ### Bibliography
@@ -125,9 +139,21 @@ AIHR Analytics, 2020. 21 Employee Performance Metrics | AIHR Analytics. [Online]
 Available at: https://www.analyticsinhr.com/blog/employee-performance-metrics/  
 [Accessed 11 November 2020].  
 
+Business Insider, 2016. Humanyze badges watch and listen to your every move - Business Insider. [Online]  
+Available at: https://www.businessinsider.com/humanyze-badges-watch-and-listen-employees-2016-10?r=US&IR=T  
+[Accessed 17 November 2020].  
+
 Goodreads, 2020. Quote by Bill Gates: “Measuring programming progress by lines of code...”. [Online]  
 Available at: https://www.goodreads.com/quotes/536587-measuring-programming-progress-by-lines-of-code-is-like-measuring  
 [Accessed 12 November 2020].  
+
+HR Magazine, 2020. The ethics of gathering employee data. [Online]  
+Available at: https://www.hrmagazine.co.uk/article-details/the-ethics-of-gathering-employee-data#comment-35066  
+[Accessed 17 November 2020].  
+
+Humanyze, 2020. Humanyze - Analytics For Better Performance.. [Online]  
+Available at: https://www.humanyze.com/  
+[Accessed 17 November 2020].  
 
 Kolassa, C., Riehle, D. & Salim, M. A., 2014. The Empirical Commit Frequency Distribution of OpenSource Projects. Friedrich-Alexander-University: arXiv.  
 
@@ -152,5 +178,8 @@ Available at: https://www.visual-paradigm.com/scrum/what-is-story-point-in-agile
 wibas, 2020. Sprint Burn Down. [Online]  
 Available at: https://www.wibas.com/scrum/sprint-burn-down/en  
 [Accessed 13 November 2020].  
+
+
+ 
 
 
