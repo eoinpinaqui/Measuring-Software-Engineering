@@ -58,6 +58,8 @@ Version control systems are vital in the development of large software systems a
 
 The measurement of software engineering teams with commit frequency is used to varying degrees of effectiveness. The idea is simple; the higher the frequency of commits by an individual software engineer, the more productive they are. This idea also translates to measuring teams, where teams are compared by commit frequency and the higher the commit frequency of a team, the more productive they are. Companies and managers have used this assumption to drive performance reviews, but there is no standard for using commit frequency to measure software engineers.  
 
+<img src="https://docs.cloudbees.com/docs/cloudbees-cd/latest/devops-insight/_images/dois/03000047.6175d30.png" />
+
 #### Why doesn't it work?
 Generally, it is a good practice for programmers to make consistent commits throughout their work on a task. The frequency and size of a commit is a matter of personal preference as there is no definitive guide on how a commit should appear. In fact, the subject is hotly debated by engineers of all disciplines. As a result of this ambiguity, each software engineer develops their own practice when using version control systems that allow them to be as productive as possible. Some engineers prefer to make very small commits as often as possible so that they have as many options as possible in case a revert is required. Other engineers prefer to make larger commits more seldomly, thoroughly testing each function that they write before they make a commit. A preferred approach among many software engineers is to break commits up into logical sections so that each commit deals with a different problem or portion of the codebase.  
 
@@ -78,7 +80,9 @@ During a Sprint, daily SCRUM meetings are held, where team-members synchronise t
 2. What will I do today to accomplish the Sprint goal on time?
 3. What is impeding progress toward the Sprint goal?  
 
-Sprint Burndown is a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project.  
+Sprint Burndown is a technique used to display the remaining work of the current Sprint in a daily SCRUM meeting. Often, a Sprint Burndown chart is used where the vertical axis represents the work remaining, and the horizontal axis represents the time remaining in the Sprint. The total amount of work left is determined in the daily SCRUM meetings, and points are plotted on the Sprint Burndown chart. Drawing a line through these points allows the development team to monitor their progress through a Sprint's workload (wibas, 2020). This technique is used to measure the productivity of both software engineering teams and individual software engineers, as individual software engineers are asked daily about their contributions to the project. 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SampleBurndownChart.svg/1200px-SampleBurndownChart.svg.png" />
 
 #### Why they work
 Sprint Burndowns are a powerful tool that empower software engineers to drive overall projects and individual features themselves. It also includes them as an active member of the software measurement process. Instead of monitoring artificial metrics such as lines of code and number of commits, the specific contribution to features and projects is tracked, and the team collaborates to ensure that every team member is making progress. This visibility allows teams to adapt to any technical challenges that arise and provides feedback on the proposed schedule daily, thus reducing risks and alerting the team if any problems occur.  
@@ -94,6 +98,8 @@ Team velocity is a measure of the number of story points completed in a given Sp
 Vi = (Number of story points completed in the Sprint)/(Duration of the Sprint)
 ```
 The approach when using story points is similar to the process when using Sprint Burndowns, as the story points are updated daily in a SCRUM meeting so that the team knows how many story points are left on any development tasks. Team velocity and Sprint Burndowns are often used together to measure the productivity of teams and individuals. Team velocity can also be measured in hours of work instead of story points, where team-members estimate the number of hours required to complete a task.  
+
+<img src="https://www.sealights.io/wp-content/uploads/2018/07/sprint-velocity.jpg" />
 
 ##### Why it works
 Team velocity is a crucial metric in measuring the productivity of software development teams and induvial software engineers in the modern software industry. Measuring team velocity helps teams:  
